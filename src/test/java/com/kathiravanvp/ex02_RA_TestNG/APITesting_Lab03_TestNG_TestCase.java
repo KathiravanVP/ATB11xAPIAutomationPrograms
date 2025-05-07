@@ -16,7 +16,7 @@ public class APITesting_Lab03_TestNG_TestCase {
                 .when()
                     .get()
                 .then()
-                .log().all().statusCode(200);
+                    .log().all().statusCode(200);
     }
 
     @Test
@@ -24,12 +24,12 @@ public class APITesting_Lab03_TestNG_TestCase {
         pincode = "@";
         RestAssured
                 .given()
-                .baseUri("https://api.zippopotam.us/")
-                .basePath("/IN/" +pincode)
+                    .baseUri("https://api.zippopotam.us/")
+                    .basePath("/IN/" +pincode)
                 .when()
-                .get()
+                    .get()
                 .then()
-                .log().all().statusCode(200);
+                    .log().all().statusCode(200);
     }
 
     @Test
@@ -37,11 +37,11 @@ public class APITesting_Lab03_TestNG_TestCase {
         pincode = " ";
         RestAssured
                 .given()
-                .baseUri("https://api.zippopotam.us/")
-                .basePath("/IN/" +pincode)
+                    .baseUri("https://api.zippopotam.us/")
+                    .basePath("/IN/" +pincode)
                 .when()
-                .get()
+                    .get()
                 .then()
-                .log().all().statusCode(200);
+                    .log().all().statusCode(200);
     }
 }

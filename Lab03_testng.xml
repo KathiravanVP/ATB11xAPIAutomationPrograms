@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/admin/IdeaProjects/ATB11xAPIAutomationPrograms/src/test/java/com/kathiravanvp/ex02_RA_TestNG">
+        <classes>
+            <class name="com.kathiravanvp.ex02_RA_TestNG.APITesting_Lab03_TestNG_TestCase">
+                <methods>
+                    <include name="test_Positive_TC1"/>
+                    <include name="test_Negative_TC1"/>
+                    <include name="test_Negative_TC2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

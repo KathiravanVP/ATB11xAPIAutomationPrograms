@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/admin/IdeaProjects/ATB11xAPIAutomationPrograms/src/test/java/com/kathiravanvp/ex03_RestAssured_HTTPMethods">
+        <classes>
+            <class name="com.kathiravanvp.ex03_RestAssured_HTTPMethods.DELETE.APITesting_Lab10_DELETE_DeleteBooking">
+                <methods>
+                    <include name="deleteBooking"/>
+                </methods>
+            </class>
+            <class name="com.kathiravanvp.ex03_RestAssured_HTTPMethods.GET.APITesting_Lab06_GET_GetBooking">
+                <methods>
+                    <include name="getBooking"/>
+                </methods>
+            </class>
+            <class name="com.kathiravanvp.ex03_RestAssured_HTTPMethods.GET.APITesting_Lab07_GET_GetAllBookings">
+                <methods>
+                    <include name="getAllBooking"/>
+                </methods>
+            </class>
+            <class name="com.kathiravanvp.ex03_RestAssured_HTTPMethods.GET.APITesting_Lab08_GET_PingHealthCheck">
+                <methods>
+                    <include name="pingHealthCheck"/>
+                </methods>
+            </class>
+            <class name="com.kathiravanvp.ex03_RestAssured_HTTPMethods.PATCH.APITesting_Lab10_PUT_PartialUpdateBooking">
+                <methods>
+                    <include name="partialUpdateBooking"/>
+                </methods>
+            </class>
+            <class name="com.kathiravanvp.ex03_RestAssured_HTTPMethods.POST.APITesting_Lab04_POST_CreateBooking">
+                <methods>
+                    <include name="createBooking"/>
+                </methods>
+            </class>
+            <class name="com.kathiravanvp.ex03_RestAssured_HTTPMethods.POST.APITesting_Lab05_POST_CreateToken">
+                <methods>
+                    <include name="createToken"/>
+                </methods>
+            </class>
+            <class name="com.kathiravanvp.ex03_RestAssured_HTTPMethods.PUT.APITesting_Lab09_PUT_UpdateBooking">
+                <methods>
+                    <include name="updateBooking"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

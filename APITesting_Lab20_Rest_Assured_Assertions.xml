@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="ATB11xAPIAutomation">
+        <classes>
+            <class name="com.kathiravanvp.ex05_Test_Assertions.APITesting_Lab20_Rest_Assured_Assertions">
+                <methods>
+                    <include name="createBooking_POST"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

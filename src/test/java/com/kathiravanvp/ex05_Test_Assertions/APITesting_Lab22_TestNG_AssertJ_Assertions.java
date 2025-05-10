@@ -8,8 +8,9 @@ import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import static org.assertj.core.api.Assertions.*;
 
-public class APITesting_Lab22_TestNG_Assertions {
+public class APITesting_Lab22_TestNG_AssertJ_Assertions {
     RequestSpecification r;
     Response response;
     ValidatableResponse vr;
@@ -48,5 +49,7 @@ public class APITesting_Lab22_TestNG_Assertions {
         Assert.assertEquals(lastname,"Pandey");
         Assert.assertNotNull(bookingId);
 
+        assertThat(bookingId).isNotZero().isNotNull().isNotNegative();
+        assertThat(firstname).isEqualTo("Manish").isNotBlank();
     }
 }

@@ -16,3 +16,16 @@ A collection of Java-based API automation scripts developed using REST Assured a
 - **Git & GitHub**
 
 ---
+
+## 🧪 Key Features
+
+- 🔍 **Environment setup** using `config.properties`
+- 🧱 **Modular request builders** using REST Assured
+- 🛠️ **TestNG-based structure** with `@Test`, `@DataProvider`, and parameters
+- ✅ **Comprehensive assertions** on status codes, response bodies, headers, and schemas
+- 📊 **Data‑driven testing** via TestNG and (optional) Excel integration
+- 🧭 **Reusability** with utility methods (e.g., response extractors, token management)
+- 📜 **Logging & reporting** through TestNG reports and console logs
+- ☁️ **CI/CD ready** for Jenkins or GitHub Actions
+
+---
